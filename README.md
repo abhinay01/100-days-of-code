@@ -9,11 +9,11 @@ This include solution of questions of different competitive platform.
 
 
 First character of each solution file name contains one of these character:
-C- Codechef\n
-H- Hackerrank\n
-E-hackerearth\n
-S-spoj\n
-F-codeforces\n
+C- Codechef
+H- Hackerrank
+E-hackerearth
+S-spoj
+F-codeforces
       According to 1st character, platform is selected.
 
 Followed by this, file name is same as the unique problem name as specified on the specified platform.
