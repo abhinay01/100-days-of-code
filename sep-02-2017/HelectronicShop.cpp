@@ -10,18 +10,16 @@ int getMoneySpent(vector < int > keyboards, vector < int > drives, int s){
 		{
 			sum=keyboards[i]+drives[j];
 			//cout<<"sum :"<<sum;
-			if(sum<s && spend<sum)
+			if(sum<=s && spend<sum)
 			{
 				spend=sum;
 			}
-			if(sum<min)
-			min=sum;
 		}
 	}
 	
 	//cout<<min<<"\n";
-	//cout<<sum<<"\n";
-	if(s<min  || min==0)
+	//cout<<spend<<"\n";
+	if(spend==0)
 	return -1;
 	else
 	return spend;
